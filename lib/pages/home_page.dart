@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
     ),
         body: Center(
       child: Container(
-        child: Text("welcome to $days days flutter challenge"),
+        child: Text("welcome to $days days flutter challenge",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.black),),
       ),
     ),
     drawer :Drawer(),
